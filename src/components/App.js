@@ -1,9 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
 import '../App.css';
-import PropTypes from 'prop-types'; 
-
 
 const App = () => (
   <div className="App">
@@ -16,5 +15,5 @@ const App = () => (
 export default App;
 
 Display.propTypes = {
-  result: PropTypes.string
-}
+  result: PropTypes.string,
+};
