@@ -2,10 +2,6 @@ import React , {Component} from 'react';
 
 class Display extends Component {
 
-    static defaultProps = {
-        result: '0'
-    }
-
     render(){
         return (
             <div>
@@ -14,5 +10,9 @@ class Display extends Component {
         )
     }
 }
+
+Display.defaultProps = {
+    result: '0'
+  };
 
 export default Display;
