@@ -5,7 +5,6 @@ const calculate = (data, btnName) => {
   const numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
   const operations = ['+', '-', 'X', '÷', '%'];
 
-
   if (btnName === '+/-') {
     total *= -1;
     next *= -1;
@@ -39,7 +38,6 @@ const calculate = (data, btnName) => {
     return data;
   }
 
-  
   if (operations.includes(btnName)) {
     operation = btnName;
     return data;
@@ -60,7 +58,6 @@ const calculate = (data, btnName) => {
     return data;
   }
 
- 
   if (btnName === '=') {
     let result;
     if (!total && !next) result = 0;
