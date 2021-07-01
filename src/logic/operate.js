@@ -16,9 +16,6 @@ const operate = (numberOne, numberTwo, operation) => {
   if (operation === '÷') {
     return newNumberOne.div(newNumberTwo).toString();
   }
-  if (operation === '%') {
-    return newNumberOne.mod(newNumberTwo).toString();
-  }
 
   return 0;
 };
