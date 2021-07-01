@@ -22,10 +22,6 @@ const calculate = (data, btnName) => {
       total = '0.';
     }
 
-    // if (total  && !operation) {
-    //   total += '.';
-    // }
-
     if (total && !next) {
       if (operation) {
         next += '0.';

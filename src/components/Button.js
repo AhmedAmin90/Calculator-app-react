@@ -3,7 +3,6 @@ import React from 'react';
 const Button = ({ name, clickHandler }) => {
   const handleClick = () => {
     clickHandler(name);
-    // alert(name)
   };
   return (
     <div>
