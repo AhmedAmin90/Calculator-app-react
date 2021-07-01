@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Button = ({ name, clickHandler }) => {
   const handleClick = () => {
@@ -12,6 +13,15 @@ const Button = ({ name, clickHandler }) => {
       </button>
     </div>
   );
+};
+
+Button.propTypes = {
+  name: PropTypes.string,
+  clickHandler: PropTypes.func.isRequired,
+};
+
+Button.defaultProps = {
+  name: null,
 };
 
 export default Button;
