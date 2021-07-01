@@ -1,5 +1,9 @@
 # Calculator App
 
+This project is a simple Calculator built with React.
+
+I built this app on 5 Milestones:
+
 ## First Milestone:
 This is the first milestone in the calculator app. I added the required packages and linters and deployed it to Heroku.
 
@@ -15,6 +19,13 @@ In this milestone I added two logic files: calculate and operate files.
 Calculate method uses the buttonName argument to mutate the calculator’s data object and return its modified version. 
 
 2. Operate: It contains one default method: operate. The operate function accepts numberOne, numberTwo and operation as arguments.By using the value of the operation argument, this method performs a simple math operation.
+
+## Fifth Milestone:
+In this milestone I applied the logic files to my app.
+1. I added state on App file.
+2. I passes the props from parents files to child files.
+3. I handled the functionality of the app by click event.
+
 
 
 # Live Link:
@@ -49,4 +60,24 @@ npm start
 
 
 
+## Authors
 
+👤 **Ahmed Amin**
+
+- GitHub: [@AhmedAmin90](https://github.com/AhmedAmin90)
+- Twitter: [@AhmedAmin12383](https://twitter.com/AhmedAmin12383)
+- LinkedIn: [Ahmed Amin](https://www.linkedin.com/in/web-developer/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page]((https://github.com/AhmedAmin90/Calculator-app-react/issues)).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## License
+<p>This project is <a href="./LICENSE">MIT</a> licensed.</p>
