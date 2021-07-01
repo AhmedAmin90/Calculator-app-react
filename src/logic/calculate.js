@@ -1,4 +1,3 @@
-/* eslint-disable no-self-assign */
 import operate from './operate';
 
 const calculate = (data, btnName) => {
@@ -71,7 +70,8 @@ const calculate = (data, btnName) => {
 
   if (btnName === '=') {
     if (total && !next) {
-      total = total;
+      const result = total;
+      total = result;
     }
     if (!total && !next) {
       total = '0';
