@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
+import './ButtonPanel.css';
 
 const ButtonPanel = ({ clickHandler }) => {
   const handleClick = (name) => {
@@ -9,33 +10,33 @@ const ButtonPanel = ({ clickHandler }) => {
 
   return (
     <div>
-      <div>
-        <Button name="AC" clickHandler={handleClick} />
-        <Button name="+/-" clickHandler={handleClick} />
-        <Button name="%" clickHandler={handleClick} />
+      <div className="Button-panel-row">
+        <Button color="#E0E0E0" name="AC" clickHandler={handleClick} />
+        <Button color="#E0E0E0" name="+/-" clickHandler={handleClick} />
+        <Button color="#E0E0E0" name="%" clickHandler={handleClick} />
         <Button name="÷" clickHandler={handleClick} />
       </div>
-      <div>
-        <Button name="7" clickHandler={handleClick} />
-        <Button name="8" clickHandler={handleClick} />
-        <Button name="9" clickHandler={handleClick} />
+      <div className="Button-panel-row">
+        <Button color="#E0E0E0" name="7" clickHandler={handleClick} />
+        <Button color="#E0E0E0" name="8" clickHandler={handleClick} />
+        <Button color="#E0E0E0" name="9" clickHandler={handleClick} />
         <Button name="X" clickHandler={handleClick} />
       </div>
-      <div>
-        <Button name="4" clickHandler={handleClick} />
-        <Button name="5" clickHandler={handleClick} />
-        <Button name="6" clickHandler={handleClick} />
+      <div className="Button-panel-row">
+        <Button color="#E0E0E0" name="4" clickHandler={handleClick} />
+        <Button color="#E0E0E0" name="5" clickHandler={handleClick} />
+        <Button color="#E0E0E0" name="6" clickHandler={handleClick} />
         <Button name="-" clickHandler={handleClick} />
       </div>
-      <div>
-        <Button name="1" clickHandler={handleClick} />
-        <Button name="2" clickHandler={handleClick} />
-        <Button name="3" clickHandler={handleClick} />
+      <div className="Button-panel-row">
+        <Button color="#E0E0E0" name="1" clickHandler={handleClick} />
+        <Button color="#E0E0E0" name="2" clickHandler={handleClick} />
+        <Button color="#E0E0E0" name="3" clickHandler={handleClick} />
         <Button name="+" clickHandler={handleClick} />
       </div>
-      <div>
-        <Button name="0" clickHandler={handleClick} />
-        <Button name="." clickHandler={handleClick} />
+      <div className="Button-panel-row">
+        <Button color="#E0E0E0" wide={true} name="0" clickHandler={handleClick} />
+        <Button color="#E0E0E0" name="." clickHandler={handleClick} />
         <Button name="=" clickHandler={handleClick} />
 
       </div>

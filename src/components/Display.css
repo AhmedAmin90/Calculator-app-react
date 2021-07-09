@@ -1,0 +1,10 @@
+.Display{
+    background-color: #858693;
+    height: 100px;
+    font-weight: bold;
+    padding: 0 10px;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
