@@ -1,0 +1,48 @@
+.hero-section-text {
+    width: 75%;
+    margin: 100px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3EFEA;
+    border: 2px #172B4D solid;
+    box-shadow: 57px 43px 0px 17px rgba(235,196,72,0.78);
+
+}
+
+.hero-section-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #172B4D;
+}
+
+.my-description {
+    color: #172B4D;
+    font-size: 20px;
+    height: 98px;
+}
+
+.connect-text {
+    font-size: 16px;
+    color: #172B4D;
+}
+
+.social-icons {
+    color: #505F79;
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.social-icons li a {
+    color: #505F79;
+}
+
+.social-icons li a:hover {
+    cursor: pointer;
+    color: #172B4D;
+}
