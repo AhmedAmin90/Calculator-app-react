@@ -3,7 +3,7 @@ import {
   Switch,
   Route,
   NavLink,
-  BrowserRouter as Router
+  BrowserRouter as Router,
 } from 'react-router-dom';
 import Calculator from './Calculator';
 import About from './About';
@@ -11,25 +11,23 @@ import Quote from './Quote';
 import '../App.css';
 
 const App = () => (
-  <Router >
-  <div className="App">
-    <nav>
+  <Router>
+    <div className="App">
+      <nav>
 
-      <NavLink to="/"> Home </NavLink>
-      <NavLink to="/calculator"> Calculator </NavLink>
-      <NavLink to="/quote"> Quote </NavLink>
+        <NavLink to="/"> Home </NavLink>
+        <NavLink to="/calculator"> Calculator </NavLink>
+        <NavLink to="/quote"> Quote </NavLink>
 
-    </nav>
+      </nav>
 
-    <Switch>
-      <Route exact path="/" render={() => <About />} />
-      <Route exact path="/calculator" render={() => <Calculator />} />
-      <Route exact path="/quote" render={() => <Quote />} />
-    </Switch>
+      <Switch>
+        <Route exact path="/" render={() => <About />} />
+        <Route exact path="/calculator" render={() => <Calculator />} />
+        <Route exact path="/quote" render={() => <Quote />} />
+      </Switch>
 
-    
-
-  </div>
+    </div>
   </Router>
 );
 export default App;

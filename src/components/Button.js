@@ -11,7 +11,7 @@ const Button = ({
   const width = wide ? 'width-double' : '';
   return (
 
-    <div className={`Button ${width}`} style={{ backgroundColor: color }}>
+    <div className={`Button ${width}`} style={{ backgroundColor: color }} role="main">
       <button className="Button-btn" type="button" onClick={handleClick}>
         {' '}
         {name}
