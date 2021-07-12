@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 import React from 'react';
 import { create } from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';

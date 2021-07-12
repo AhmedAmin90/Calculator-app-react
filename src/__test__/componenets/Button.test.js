@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 import React from 'react';
 import { create } from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
@@ -5,8 +6,8 @@ import '@testing-library/jest-dom';
 import Button from '../../components/Button';
 
 test('Takes Name , color and clickHandler props', () => {
-const elem = create(<Button color="#E0E0E0" name="AC" clickHandler={() => 'This is a test'}/>);
-expect(elem).toMatchSnapshot();
+  const elem = create(<Button color="#E0E0E0" name="AC" clickHandler={() => 'This is a test'} />);
+  expect(elem).toMatchSnapshot();
   render(<Button color="#E0E0E0" name="AC" clickHandler={() => 'This is a test'} />);
   const btn = screen.getByRole('main');
   const btnName = screen.getByText('AC');
