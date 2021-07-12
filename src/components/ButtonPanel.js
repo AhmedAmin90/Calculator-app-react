@@ -35,7 +35,7 @@ const ButtonPanel = ({ clickHandler }) => {
         <Button name="+" clickHandler={handleClick} />
       </div>
       <div className="Button-panel-row">
-        <Button color="#E0E0E0" wide={true} name="0" clickHandler={handleClick} />
+        <Button color="#E0E0E0" wide name="0" clickHandler={handleClick} />
         <Button color="#E0E0E0" name="." clickHandler={handleClick} />
         <Button name="=" clickHandler={handleClick} />
 

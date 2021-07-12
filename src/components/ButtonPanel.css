@@ -1,11 +1,10 @@
 .Button-panel-row {
-    display: flex;
-    height: 100px;
-
+  display: flex;
+  height: 100px;
 }
 
 .Button-panel-row:last-of-type {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 /* .Button-panel-row:last-of-type :first-child {

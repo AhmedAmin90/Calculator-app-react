@@ -1,18 +1,16 @@
 import React from 'react';
 import './About.css';
 
-const Quote = ()=> {
-    return(
-        <div className="About">
-        <div className="hero-section-text">
-        <h1>Quote of the day</h1>
-        <p className="my-description">
+const Quote = () => (
+  <div className="About">
+    <div className="hero-section-text">
+      <h1>Quote of the day</h1>
+      <p className="my-description">
         Some people want it to happen, some wish it would happen, others make it happen.
 
-        </p>
+      </p>
     </div>
-    </div>
-    )
-}
+  </div>
+);
 
 export default Quote;
