@@ -16,7 +16,7 @@ describe('calculate', () => {
   });
 
   it('Total total will be 0 if total and next are null and click on operation buttons', () => {
-    const result = calculate({ total: null , next: null, operation: null }, '+');
+    const result = calculate({ total: null, next: null, operation: null }, '+');
     expect(result.total).toEqual('0');
     expect(result.next).toEqual(null);
   });
@@ -61,14 +61,13 @@ describe('calculate', () => {
     expect(result.total).toEqual('6');
   });
   it('"=" return 0 if next and total are null ', () => {
-    const result = calculate({ total: null , next: null, operation: null }, '=');
+    const result = calculate({ total: null, next: null, operation: null }, '=');
     expect(result.total).toEqual('0');
   });
   it('"=" return total equal to operation of next, total and operation return to null ', () => {
-    const result = calculate({ total: '5' , next: '6', operation: 'X' }, '=');
+    const result = calculate({ total: '5', next: '6', operation: 'X' }, '=');
     expect(result.total).toEqual('30');
     expect(result.next).toEqual(null);
     expect(result.operation).toEqual(null);
   });
-
 });
