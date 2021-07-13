@@ -28,6 +28,11 @@ describe(' Operate', () => {
     expect(result).not.toBe(null);
   });
 
+  it('Can not divide by zero', () => {
+    const result = operate('2', '0', '÷');
+    expect(result).toEqual('Can not divide numbers by Zero !');
+  });
+
   it('multiple two numbers , and do not return null', () => {
     const result = operate('2', '4', 'X');
     expect(result).toEqual('8');

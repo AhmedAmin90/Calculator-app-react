@@ -14,6 +14,10 @@ const operate = (numberOne, numberTwo, operation) => {
     return newNumberOne.times(newNumberTwo).toString();
   }
   if (operation === '÷') {
+    if (numberTwo === '0') {
+      return 'Can not divide numbers by Zero !';
+    }
+
     return newNumberOne.div(newNumberTwo).toString();
   }
 
