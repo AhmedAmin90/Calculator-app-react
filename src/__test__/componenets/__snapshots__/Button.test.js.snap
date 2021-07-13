@@ -1,0 +1,18 @@
+exports[`test Takes Name , color and clickHandler props 1`] = `
+<div
+  className="Button "
+  role="main"
+  style={
+    Object {
+      "backgroundColor": "#E0E0E0",
+    }
+  }>
+  <button
+    className="Button-btn"
+    onClick={[Function]}
+    type="button">
+     
+    AC
+  </button>
+</div>
+`;

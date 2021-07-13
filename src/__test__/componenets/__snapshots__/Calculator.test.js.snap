@@ -1,0 +1,333 @@
+exports[`test Contains heading with text 1`] = `
+<div
+  className="Calculator">
+  <h1>
+    Lets Do Some Math !
+  </h1>
+  <div
+    className="Display">
+    <h1 />
+  </div>
+  <div>
+    <div
+      className="Button-panel-row">
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          AC
+        </button>
+      </div>
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          +/-
+        </button>
+      </div>
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          %
+        </button>
+      </div>
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "orange",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          ÷
+        </button>
+      </div>
+    </div>
+    <div
+      className="Button-panel-row">
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          7
+        </button>
+      </div>
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          8
+        </button>
+      </div>
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          9
+        </button>
+      </div>
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "orange",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          X
+        </button>
+      </div>
+    </div>
+    <div
+      className="Button-panel-row">
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          4
+        </button>
+      </div>
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          5
+        </button>
+      </div>
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          6
+        </button>
+      </div>
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "orange",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          -
+        </button>
+      </div>
+    </div>
+    <div
+      className="Button-panel-row">
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          1
+        </button>
+      </div>
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          2
+        </button>
+      </div>
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          3
+        </button>
+      </div>
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "orange",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          +
+        </button>
+      </div>
+    </div>
+    <div
+      className="Button-panel-row">
+      <div
+        className="Button width-double"
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          0
+        </button>
+      </div>
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "#E0E0E0",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          .
+        </button>
+      </div>
+      <div
+        className="Button "
+        role="main"
+        style={
+          Object {
+            "backgroundColor": "orange",
+          }
+        }>
+        <button
+          className="Button-btn"
+          onClick={[Function]}
+          type="button">
+           
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

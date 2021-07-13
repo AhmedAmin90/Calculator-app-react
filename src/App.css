@@ -1,3 +1,26 @@
 .App {
   text-align: center;
 }
+
+nav {
+  margin: 30px auto;
+  width: 75%;
+  border-radius: 10px;
+  background-color: #455a7e;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #efd170;
+}

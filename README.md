@@ -2,6 +2,8 @@
 
 This project is a simple Calculator built with React.
 
+![screenshot](src/assets/imgs/Home.png) 
+
 I built this app on 5 Milestones:
 
 ## First Milestone:
@@ -26,6 +28,11 @@ In this milestone I applied the logic files to my app.
 2. I passes the props from parents files to child files.
 3. I handled the functionality of the app by click event.
 
+## Style Milestone:
+
+1. I added the style of my application to be with the required style.
+
+![screenshot](src/assets/imgs/calculator.png) 
 
 
 # Live Link:
@@ -58,6 +65,15 @@ npm install
 npm start
 ```
 
+# How to Test:
+
+1. Open the terminal and run:
+
+```bash
+npm run test
+```
+
+![screenshot](src/assets/imgs/test.png) 
 
 
 ## Authors

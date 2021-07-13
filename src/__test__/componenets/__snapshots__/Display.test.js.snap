@@ -1,0 +1,8 @@
+exports[`test It takes result prop and render correctly 1`] = `
+<div
+  className="Display">
+  <h1>
+    5
+  </h1>
+</div>
+`;

@@ -1,44 +1,33 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import ButtonPanel from './ButtonPanel';
-import Display from './Display';
-import calculate from '../logic/calculate';
+import React from 'react';
+import {
+  Switch,
+  Route,
+  NavLink,
+  BrowserRouter as Router,
+} from 'react-router-dom';
+import Calculator from './Calculator';
+import About from './About';
+import Quote from './Quote';
 import '../App.css';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: null,
-      next: null,
-      operation: null,
-    };
-  }
+const App = () => (
+  <Router>
+    <div className="App">
+      <nav>
 
-  handleClick = (name) => {
-    const data = calculate(this.state, name);
-    this.setState({ ...data });
-  }
+        <NavLink to="/"> Home </NavLink>
+        <NavLink to="/calculator"> Calculator </NavLink>
+        <NavLink to="/quote"> Quote </NavLink>
 
-  render() {
-    const { total, next } = this.state;
-    const result = next ? next && next.toString() : total && total.toString();
-    return (
-      <div className="App">
-        <h1>Calculator Application</h1>
-        <Display result={result} />
-        <ButtonPanel clickHandler={this.handleClick} />
-      </div>
-    );
-  }
-}
+      </nav>
 
+      <Switch>
+        <Route exact path="/" render={() => <About />} />
+        <Route exact path="/calculator" render={() => <Calculator />} />
+        <Route exact path="/quote" render={() => <Quote />} />
+      </Switch>
+
+    </div>
+  </Router>
+);
 export default App;
-
-Display.propTypes = {
-  result: PropTypes.string,
-};
-
-ButtonPanel.propTypes = {
-  clickHandler: PropTypes.func.isRequired,
-};
